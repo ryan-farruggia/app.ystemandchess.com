@@ -26,6 +26,7 @@ import { WhyChessComponent } from './pages/why-chess/why-chess.component';
 import { LandingPageComponent} from './pages/landing-page/landing-page.component';
 import { LoginGuardService } from './services/login-guard/login-guard.service';
 import { BoardAnalyzerComponent } from './pages/board-analyzer/board-analyzer.component';
+import { ParentProfileComponent } from './pages/parent-profile/parent-profile.component'; // import parent-profile component
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -84,7 +85,8 @@ const routes: Routes = [
   {path: 'board-editor', component: BoardEditorComponent},
   {path: 'why-chess', component: WhyChessComponent},
   {path: 'landing-page', component: LandingPageComponent},
-  {path: 'board-analyzer', component: BoardAnalyzerComponent}
+  {path: 'board-analyzer', component: BoardAnalyzerComponent},
+  {path: 'parent-profile', component: ParentProfileComponent} // route /parent-profile to parent profile component
 ];
 
 @NgModule({

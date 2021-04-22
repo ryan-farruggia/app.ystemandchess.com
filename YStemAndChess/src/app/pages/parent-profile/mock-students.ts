@@ -1,0 +1,1 @@
+export const STUDENTS = ['John Doe', 'John Smith', 'Student Guy', 'Student Girl', 'Some Thing'];

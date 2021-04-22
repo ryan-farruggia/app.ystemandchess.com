@@ -1,0 +1,38 @@
+/* studentsComponent's private CSS styles */
+.students {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+.students li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #EEE;
+  margin: .5em;
+  padding: .3em;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.students li:hover {
+  color: #2c3a41;
+  background-color: #e6e6e6;
+  left: .1em;
+}
+.students li.selected {
+  background-color: rgb(92, 91, 91);
+  color: white;
+}
+.students li.selected:hover {
+  background-color: #505050;
+  color: white;
+}
+.students li.selected:active {
+  background-color: black;
+  color: white;
+}
+
+input {
+  padding: .5rem;
+}

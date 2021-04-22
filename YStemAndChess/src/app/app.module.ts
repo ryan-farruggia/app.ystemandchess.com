@@ -36,6 +36,8 @@ import { WhyChessComponent } from './pages/why-chess/why-chess.component';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { LoginGuardService } from './services/login-guard/login-guard.service';
 import { BoardAnalyzerComponent } from './pages/board-analyzer/board-analyzer.component';
+import { ParentProfileComponent } from './pages/parent-profile/parent-profile.component';
+import { StudentProfileComponent } from './pages/student-profile/student-profile.component';
 
 const agoraConfig: AgoraConfig = {
   AppID: '6c368b93b82a4b3e9fb8e57da830f2a4',
@@ -68,7 +70,9 @@ const agoraConfig: AgoraConfig = {
     BoardEditorComponent,
     WhyChessComponent,
     LandingPageComponent,
-    BoardAnalyzerComponent
+    BoardAnalyzerComponent,
+    ParentProfileComponent,
+    StudentProfileComponent
   ],
   imports: [
     BrowserModule,
