@@ -1,121 +1,107 @@
-html {
-  position: relative;
-  background-image: url("../../../assets/images/contact/queen.jpg");
-  background-repeat: none;
-  background-size: cover;
-  height: 100%;
+.bg-blue {
+  /* background-color: rgb(80, 167, 170) !important; */
+  background-color: #3f9cd1 !important;
+  border-color: white;
 }
 
-body {
-  background-color: transparent;
+.text-light {
+  color: rgb(230, 230, 230) !important;
 }
 
-.form {
-  width: 450px;
-  height: auto;
-  margin: 60px;
-  margin-top: 70px;
-  padding: 25px;
-  padding-top: 28px;
-  border: 0.5px;
-  border-radius: 30px;
-  background-color: #FF8503;
+.devin {
+  transform: scale(0.7);
+}
+
+.footer-icon {
+  margin-right: 10px;
+  padding-right:10px;
+  padding-left:10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.play-btn {
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color:white;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.section-padding {
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+#h1anim {
+  animation-duration: 1.15s;
+}
+
+.bg-green {
+  background-color: limegreen;
   color: white;
 }
 
-input {
-  width: 100%;
-  height: 40px;
-  padding: 16px;
-  background-color: white;
-  border: none;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-  border-radius: 25px;
+.bg-blue-dark {
+  background-color: #4096b3;
+  color:rgba(255, 255, 255, 0.918);
 }
 
-input:focus {
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-  border-radius: 30px;
+.clr-white {
+  color: white !important;
 }
 
-textarea {
-  padding: 16px;
-  background-color: white;
-  border: none;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-  border-radius: 30px;
+iframe {
+  width: 500px;
+  height:284px;
+  border-radius:10px;
+  border: #fff 3px solid;
+}
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
 }
 
-textarea:focus {
-  padding: 16px;
-  background-color: white;
-  border: none;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow: inset 0 0 10px #000000;
-  border-radius: 30px;
+.heart-icon {
+  color: rgb(238, 15, 101);
 }
 
-button {
-  background-color: white;
-  color: #3A7CCA;
-  margin-left: 5px;
-  border-radius: 30px;
-  font-family: 'Roboto';
-  cursor: pointer;
+.ventive {
+  margin-top:30px;
+  margin-right:0 !important;
 }
 
-button:hover {
-  background-color: #3A7CCA;
-  color: white;
-  margin-left: 5px;
-  border-radius: 30px;
+.sponsors {
+  margin-bottom:20px;
 }
 
-label {
-  font-size: medium;
-  font-weight: bolder;
-  margin-left: 15px;
-}
-
-.help {
-  font-size: small;
-  margin-left: 15px;
+.yt-video {
+  justify-content: center;
+  float: none;
+  align-items: center;
   text-align: center;
-  color: #000000;
 }
 
-@media screen and (max-width: 969px) {
-  .form {
-    position: relative;
-    width: 50%;
-    margin: 10%;
-  }
+.mentor-img {
+  border-radius: 10px;
+  border: solid 4px;
+  border-color: #4096b3;
 }
 
-@media screen and (max-width: 688px) {
-  .form {
-    position: relative;
-    width: 50%;
-    margin: 10%;
-  }
+.bottom {
+  margin-bottom: 25px;
 }
 
-@media screen and (max-width: 606px) {
-  .form {
-    position: relative;
-    width: 60%;
-    margin: 20%;
-  }
+.txt-large {
+  font-size: 20px;
 }
 
-@media screen and (max-width: 525px) {
-  .form {
-    position: relative;
-    width: 70%;
-    margin: 15%;
-  }
+.h-large {
+  font-size: 60px;
 }
+
 /*# sourceMappingURL=contact.component.css.map */
