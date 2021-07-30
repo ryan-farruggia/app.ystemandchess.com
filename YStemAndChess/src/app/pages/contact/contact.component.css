@@ -1,62 +1,12 @@
-.bg-blue {
-  /* background-color: rgb(80, 167, 170) !important; */
-  background-color: #3f9cd1 !important;
-  border-color: white;
+.contact-container {
+  margin-top: 100px;
 }
 
-.text-light {
-  color: rgb(230, 230, 230) !important;
+.is-error {
+  color: red;
+  transition: 1s;
 }
 
-.devin {
-  transform: scale(0.7);
-}
-
-.footer-icon {
-  margin-right: 10px;
-  padding-right:10px;
-  padding-left:10px;
-  background-color: white;
-  border-radius: 5px;
-}
-
-.play-btn {
-  background-color: dodgerblue;
-  border-radius: 5px;
-  color:white;
-  padding-left:5px;
-  padding-right:5px;
-}
-
-.section-padding {
-  padding-top:30px;
-  padding-bottom:30px;
-}
-
-#h1anim {
-  animation-duration: 1.15s;
-}
-
-.bg-green {
-  background-color: limegreen;
-  color: white;
-}
-
-.bg-blue-dark {
-  background-color: #4096b3;
-  color:rgba(255, 255, 255, 0.918);
-}
-
-.clr-white {
-  color: white !important;
-}
-
-iframe {
-  width: 500px;
-  height:284px;
-  border-radius:10px;
-  border: #fff 3px solid;
-}
 .feature {
   display: inline-flex;
   align-items: center;
@@ -66,42 +16,24 @@ iframe {
   font-size: 1.5rem;
 }
 
-.heart-icon {
-  color: rgb(238, 15, 101);
+#h1anim {
+  animation-duration: 1.15s;
 }
 
-.ventive {
-  margin-top:30px;
-  margin-right:0 !important;
+.first-elem {
+  margin-top: 50px;
 }
 
-.sponsors {
-  margin-bottom:20px;
-}
-
-.yt-video {
-  justify-content: center;
-  float: none;
-  align-items: center;
-  text-align: center;
-}
-
-.mentor-img {
-  border-radius: 10px;
-  border: solid 4px;
-  border-color: #4096b3;
-}
-
-.bottom {
-  margin-bottom: 25px;
+.text-light {
+  color: rgb(230, 230, 230) !important;
 }
 
 .txt-large {
-  font-size: 20px;
-}
-
-.h-large {
   font-size: 60px;
 }
 
-/*# sourceMappingURL=contact.component.css.map */
+.contact-icons {
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=home.component.css.map */
